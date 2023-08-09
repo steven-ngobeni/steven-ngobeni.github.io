@@ -218,15 +218,17 @@ footer{
   }
   
 ul li {
-margin-left:20px;
+margin-left:10px;
 width:130px;
 font-size: 17px;
+height:25px;
 }
 
 li {
-margin-left:40px;
+margin-left:20px;
 width:130px;
 font-size: 17px;
+
 }
 
 tr td:first-child {
