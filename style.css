@@ -6,31 +6,18 @@
 }
 
 body {
+  min-height:100%;
   background-image: url(https://img.freepik.com/free-photo/wide-shot-building-where-workers-are-cleaning-walls-windows_181624-5433.jpg?t=st=1691101300~exp=1691101900~hmac=b1dd79182475cf5fdea4dbb66b20a478e0664b2622b88c94f477733be10f602a);
 }
 
 
-img{
-	background-image: url(https://img.freepik.com/free-photo/wide-shot-building-where-workers-are-cleaning-walls-windows_181624-5433.jpg?t=st=1691101300~exp=1691101900~hmac=b1dd79182475cf5fdea4dbb66b20a478e0664b2622b88c94f477733be10f602a) ;
-	width:200px;
-	float:left;
-	height:115px;
-	margin-top:10px 0;
-	border: 2px solid #82b74b;
-    padding: 10px 0;
-	background-color: black;
-	border-radius: 30px;
-}
-
-
-
 ul li{
 	transition:none;
-	width:140px;
+	width:160px;
 	height: 30px;
 	text-align:center;
 	list-style:none;
-	margin-left: 130px;
+	margin-left:200px;
 	margin-top: auto;
 	font-size: 21px;
 	border: 2px solid green;
@@ -42,11 +29,7 @@ ul li{
 	position:relative;
 	overflow:hidden;
 	transition:0.7s;
-	padding-left:10px;
-	border-left:20px 0;
-	
-	padding-right:16px;
-	margin-right:10px;
+	margin-right:0px;
 
 }
 
@@ -77,7 +60,6 @@ h3{
 	text-align: center;
 	border: 2px solid yellow;
 	font-family: calibri;
-	background-color: gray;
 	padding-left:10px;
 	border-left:20px 0;
 	margin-left:100px;
@@ -89,7 +71,7 @@ h3{
 }
 
 
-h3, label{
+label{
 	border: 2px solid yellow;
 	font-family: calibri;
 	background-color: gray;
@@ -168,6 +150,50 @@ p{
 	font-weight: bold;
 	font-size: 20px;
 }
+tr td:first-child {
+	height:40px;
+}
+
+
+table{
+	
+	width:900px;
+	border-radius: 30px;
+	background:#588c7e;
+	padding-left:100px;
+	border-left:20px 0;
+	margin-left:90px;
+	padding-right:16px;
+	margin-right:10px;
+	height: 115px;
+	margin:170px;
+	margin-top:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+	
+	
+}
+
+h5{
+font-size: 20px;
+text-align: center;
+color: white;
+}
+
+tr td:first-child {
+	font-family:Garamond;
+	color: #fff;
+	font-weight:bold;
+	font-size: 15px;
+}
+
+
+tr td {
+	font-family:Garamond;
+	color: #e6e2d3;
+	font-weight:bold;
+	font-size: 18px;
+}
 
 
 ul li:hover{
@@ -177,14 +203,49 @@ ul li:hover{
 
 
 footer{
-	color:black;
 	margin:500px 0px;
 	text-align:center;
-	font-family: calibri;
 	background-color:#008B8B;
 	width: 100%;
 	position:absolute;
 	top: 40%;
-	border-top-color: red;
-	border-bottom-color: red ;
+	
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+  
+ul li {
+margin-left:40px;
+width:130px;
+
+}
+
+
+
+tr td:first-child {
+	font-family:Garamond;
+	color: #fff;
+	font-weight:bold;
+}
+
+
+tr td {
+	font-family:Garamond;
+	color: #e6e2d3;
+	font-weight:bold;
+	font-size: 18px;
+}
+
+table {
+padding-left: 10px;
+margin-left:0px;
+transition:translateY(-30%);
+width:300px;
+height: 10px;
+
+}	
+  
 }
